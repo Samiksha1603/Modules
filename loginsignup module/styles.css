@@ -1,0 +1,86 @@
+/* CSS for login form */
+#loginForm {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+
+#loginForm h1 {
+  text-align: center;
+  color: #8A33FD;
+  margin-bottom: 20px;
+}
+
+#loginForm input[type="email"],
+#loginForm input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#loginForm button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #8A33FD;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  margin-left: 4%;
+
+}
+
+#loginError {
+  color: red;
+  margin-top: 10px;
+}
+
+#loginForm p{
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+/* CSS for signup form */
+#signupForm {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 15%;
+
+}
+
+#signupForm h1 {
+  text-align: center;
+  color: #8A33FD;
+  margin-bottom: 20px;
+}
+
+#signupForm input[type="email"],
+#signupForm input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#signupForm button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #8A33FD;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-left: 4%;
+}
+
+#signupError {
+  color: red;
+  margin-top: 10px;
+}
+
+#signupForm p{
+  margin-left: 20%;
+  margin-top: 10px;
+}
